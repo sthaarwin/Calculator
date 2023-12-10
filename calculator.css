@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+#title{
+    margin-top: 35px;
+    text-align: center;  
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 18px;
+    background-color: #879cc9;
+    width: 355px;
+    height: 494px;
+}
+.button{
+    padding: 22px 32px;
+    margin: 0 3px;
+    border : 2px solid black;
+    border-radius: 9px;
+    cursor : pointer;
+}
+.row{
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+.row input{
+    margin: 4px; 
+    padding: 27px 9px;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-size: 22px;
+}
+#topbutton{
+    padding: 22px 45px;
+}
+#ans{
+    background-color:orange;
+}
